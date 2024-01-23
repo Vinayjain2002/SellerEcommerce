@@ -40,15 +40,13 @@ class _SplashScreenState extends State<SplashScreen> {
           children: <Widget>[
             Spacer(),
             Center(
-              child: Container(
-                width: MediaQuery.of(context).size.width * 0.25,
-                padding: EdgeInsets.symmetric(horizontal: 10, vertical: 20),
-                decoration: BoxDecoration(
-                  borderRadius: BorderRadius.circular(8),
-                  color: Colors.white.withOpacity(0.7),
-                ),
-                child: Image.asset(iclogo, fit: BoxFit.fill),
-              ),
+
+              child: Column(
+                  children: [
+                 Image.asset(iclogo, fit: BoxFit.fill,width: MediaQuery.of(context).size.width*0.25,),
+                    SizedBox(height: 10,),
+                    Text("eMart Seller Hub",style: TextStyle(color: Colors.white, fontSize: 21,fontWeight: FontWeight.w500,wordSpacing: 5),)
+              ]),
             ),
             const Spacer(),
             normalText(text: "@ Vinay jain", color: Colors.white, size: 18.0),

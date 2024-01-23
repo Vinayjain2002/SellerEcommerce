@@ -10,3 +10,5 @@ const icShopSettings="assets/icons/shop_setting.png";
 const icStar="assets/icons/star.png";
 const icVerify="assets/icons/verify.png";
 const icProduct="assets/icons/product.png";
+const imP1="assets/images/p1.png";
+const b1="assets/images/banner.jpg";
